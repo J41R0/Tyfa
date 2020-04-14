@@ -1,2 +1,2 @@
 # Tyfa
-Typical testors finding algorithms
+Typical testors finding algorithms library
