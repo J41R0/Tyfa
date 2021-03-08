@@ -1,4 +1,4 @@
-from Tyfa.gcreduct.binary import BinaryGCreduct
+from tyfa.gcreduct.binary import BinaryGCreduct
 
 
 def find_tt(mb):

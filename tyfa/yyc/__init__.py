@@ -1,4 +1,4 @@
-from Tyfa.yyc.binary import BinaryYYC
+from tyfa.yyc.binary import BinaryYYC
 
 
 def find_tt(mb):

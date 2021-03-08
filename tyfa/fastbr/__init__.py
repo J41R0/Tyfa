@@ -1,4 +1,4 @@
-from Tyfa.fastbr.binary import BasicMatrixBR, TestorsBR
+from tyfa.fastbr.binary import BasicMatrixBR, TestorsBR
 
 
 def find_tt(mb):
