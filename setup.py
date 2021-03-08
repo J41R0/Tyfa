@@ -13,9 +13,11 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/J41R0/Tyfa",
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(exclude="tests"),
     install_requires=[
-        'bitarray >= 0.9.3'
+        'bitarray >= 0.9.3',
+        'matplotlib >=3.3.2',
+        'pytest-benchmark >=3.2.3'
     ],
     python_requires='>=3.6',
     classifiers=[
